@@ -38,9 +38,7 @@ namespace ShellSamplePrism
 
         protected override async void OnInitialized()
         {
-#if DEBUG
-            HotReloader.Current.Start(this);
-#endif
+
             InitializeComponent();
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");

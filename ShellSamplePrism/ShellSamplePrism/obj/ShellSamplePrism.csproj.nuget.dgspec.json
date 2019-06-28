@@ -116,14 +116,6 @@
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
               "version": "[1.0.21, )"
-            },
-            "Xamarin.HotReload": {
-              "target": "Package",
-              "version": "[1.2.8, )"
-            },
-            "Xamarin.LiveReload": {
-              "target": "Package",
-              "version": "[0.3.27, )"
             }
           },
           "imports": [
