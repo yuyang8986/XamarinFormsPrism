@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShellSamplePrism.Views;assembly=ShellSamplePrism"
+             x:Class="ShellSamplePrism.Views.Cupertino.ActivityIndicatorPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <ActivityIndicator IsRunning="True"
+                               IsVisible="True"
+                               HeightRequest="40"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center">
+                <ActivityIndicator.Color>Black</ActivityIndicator.Color>
+            </ActivityIndicator>
+        </StackLayout>
+    </ContentPage.Content>
+</views:BasePage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShellSamplePrism.Views.Studies.CheckoutView">
+  <ContentView.Content>
+        <Grid HeightRequest="120">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Label Text="TOTAL"
+                   Margin="0,0,0,10"></Label>
+            <Label Grid.Row="1"
+                   Text="Subtotal"></Label>
+            <Label Grid.Row="2"
+                   Text="Shipping"></Label>
+            <Label Grid.Row="3"
+                   Text="Tax"></Label>
+            <Label Grid.Column="1"
+                   HorizontalOptions="End"
+                   HorizontalTextAlignment="End"
+                   Text="$284.52"
+                   Margin="0,0,10,10"
+                   FontSize="Large"></Label>
+            <Label Grid.Column="1"
+                   HorizontalOptions="End"
+                   HorizontalTextAlignment="End"
+                   Grid.Row="1"
+                   Margin="0,0,10,0"
+                   Text="$242.52"></Label>
+            <Label Grid.Column="1"
+                   HorizontalOptions="End"
+                   HorizontalTextAlignment="End"
+                   Grid.Row="2"
+                   Margin="0,0,10,0"
+                   Text="$25.52"></Label>
+            <Label Grid.Column="1"
+                   HorizontalOptions="End"
+                   HorizontalTextAlignment="End"
+                   Grid.Row="3"
+                   Margin="0,0,10,0"
+                   Text="$2.52"></Label>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

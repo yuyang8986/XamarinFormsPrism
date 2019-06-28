@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShellSamplePrism.Views;assembly=ShellSamplePrism"
+             x:Class="ShellSamplePrism.Views.Style.StylePage"
+             Title="{Binding Title}">
+    <StackLayout>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="6*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Source="tab_about.png"></Image>
+            <Image Source="tab_feed.png"
+                   Grid.Row="1"></Image>
+
+            <Grid Grid.Column="1"
+                  Padding="10"
+                  x:Name="ColorsNavGrid">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding StyleNavigationCommand}"
+                                          CommandParameter="Colors"></TapGestureRecognizer>
+                </Grid.GestureRecognizers>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Text="Colors"
+                       HorizontalTextAlignment="Start"></Label>
+                <Label Text="All of the predefined color"
+                       Grid.Row="1"
+                       HorizontalTextAlignment="Start"></Label>
+            </Grid>
+
+            <Grid Grid.Column="1"
+                  Padding="10"
+                  Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding StyleNavigationCommand}"
+                                          CommandParameter="Typohraghy"></TapGestureRecognizer>
+                </Grid.GestureRecognizers>
+                <Label Text="Typohraghy"
+                       HorizontalTextAlignment="Start"></Label>
+                <Label Text="All of the predefined text styles"
+                       HorizontalTextAlignment="Start"
+                       Grid.Row="1"></Label>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</views:BasePage>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vsm="clr-namespace:BuildIt.Forms;assembly=BuildIt.Forms.Core"
+             xmlns:animations="clr-namespace:BuildIt.Forms.Animations;assembly=BuildIt.Forms.Core"
+             x:Class="ShellSamplePrism.Views.BasePage"            
+             xmlns:debugRainbows="clr-namespace:Xamarin.Forms.DebugRainbows;assembly=Xamarin.Forms.DebugRainbows"
+             debugRainbows:DebugRainbow.IsDebug="False"
+             Padding="0"
+             ControlTemplate="{StaticResource HeaderTemplate}"
+             Visual="Material"
+             >
+
+
+
+    <!--<NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" BackgroundColor="Coral" VerticalOptions="Fill" HorizontalOptions="Fill">
+            <Label Text="sss"></Label>
+            <ImageButton Source="menu.png"
+                         x:Name="Menu"
+                         Aspect="AspectFill"
+                         HeightRequest="20"
+                         WidthRequest="20"
+                         Clicked="MenuToggle_OnClick"
+                         HorizontalOptions="End"></ImageButton>
+        </StackLayout>
+    </NavigationPage.TitleView>-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="menu.png"
+                     x:Name="Menu"
+                     Clicked="MenuToggle_OnClick">
+
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+         
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <!--<vsm:VisualStateManager.VisualStateGroups>
+        <vsm:VisualStateGroups>
+            <vsm:VisualStateGroup Name="MainMenuStates">
+                <vsm:VisualState Name="ShowMenu">
+                    <vsm:VisualState.Setters>
+                        <vsm:Setter Element="{x:Reference MenuGrid}"
+                                    Property="TranslationY"
+                                    Value="0"
+                                    ></vsm:Setter>
+                    </vsm:VisualState.Setters>
+
+                </vsm:VisualState>
+                <vsm:VisualState Name="HideMenu">
+                    <vsm:VisualState.Setters>
+                        <vsm:Setter Element="{x:Reference MenuGrid}"
+                                    Property="TranslationY"
+                                    Value="-500">
+                        </vsm:Setter>
+                    </vsm:VisualState.Setters>
+
+                </vsm:VisualState>
+            </vsm:VisualStateGroup>
+        </vsm:VisualStateGroups>
+    </vsm:VisualStateManager.VisualStateGroups>-->
+
+   
+</ContentPage>

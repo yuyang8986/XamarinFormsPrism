@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.Android\\ShellSamplePrism.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.Android\\ShellSamplePrism.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.Android\\ShellSamplePrism.Android.csproj",
+        "projectName": "ShellSamplePrism.Android",
+        "projectPath": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.Android\\ShellSamplePrism.Android.csproj",
+        "packagesPath": "C:\\Users\\LarryYu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LarryYu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.csproj": {
+                "projectPath": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "BuildIt.Forms": {
+              "target": "Package",
+              "version": "[2.0.0.30, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.1.0.431, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "XamEffects": {
+              "target": "Package",
+              "version": "[1.6.0.20, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.5.909-pre, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.5.909-pre, )"
+            },
+            "Xamarin.FFImageLoading.Svg": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.346134-pre9, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.0.21, )"
+            },
+            "Xamarin.HotReload": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            },
+            "Xamarin.LiveReload": {
+              "target": "Package",
+              "version": "[0.3.27, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.csproj",
+        "projectName": "ShellSamplePrism",
+        "projectPath": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism.csproj",
+        "packagesPath": "C:\\Users\\LarryYu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LarryYu\\source\\repos\\sandpit-ly\\ShellSamplePrism\\ShellSamplePrism\\ShellSamplePrism\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LarryYu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "BuildIt.Forms": {
+              "target": "Package",
+              "version": "[2.0.0.30, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Plugin.Toast": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.1.0.431, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "XamEffects": {
+              "target": "Package",
+              "version": "[1.6.0.20, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.5.909-pre, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.5.909-pre, )"
+            },
+            "Xamarin.FFImageLoading.Svg": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.FFImageLoading.Svg.Forms": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.4.859, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            },
+            "Xamarin.Forms.DebugRainbows": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.0.21, )"
+            },
+            "Xamarin.HotReload": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            },
+            "Xamarin.LiveReload": {
+              "target": "Package",
+              "version": "[0.3.27, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

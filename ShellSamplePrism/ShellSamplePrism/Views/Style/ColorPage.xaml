@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShellSamplePrism.Views;assembly=ShellSamplePrism"
+             x:Class="ShellSamplePrism.Views.Style.ColorPage"
+             Title="{Binding Color}">
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding ColorCodes}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout BackgroundColor="{Binding .}">
+                            <Label HorizontalOptions="End"
+                                   Text="{Binding}"
+                                   VerticalOptions="Center"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</views:BasePage>

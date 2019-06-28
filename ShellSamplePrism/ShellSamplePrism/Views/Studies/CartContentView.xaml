@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="ShellSamplePrism.Views.Studies.CartContentView">
+  <ContentView.Content>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Margin="5">
+                <ImageButton Source="tab_about.png"
+                             WidthRequest="30">
+
+                </ImageButton>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <forms:CachedImage Source="{Binding Image}"
+                                Aspect="AspectFill"
+                                HeightRequest="50"
+                                WidthRequest="50">
+                </forms:CachedImage>
+            </Grid>
+
+            <Grid Grid.Column="2">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Text="{Binding Count, StringFormat='Quantity: {0}'}"></Label>
+                <Label Text="{Binding Name}" LineBreakMode="NoWrap"
+                       Grid.Row="1"></Label>
+            </Grid>
+
+            <Label Grid.Column="3"
+                   Text="{Binding TotalGroupPrice, StringFormat='{0:c}'}"
+                   VerticalOptions="Start"
+                   HorizontalOptions="End"></Label>
+
+            <BoxView Margin="10"
+                     HeightRequest="1"
+                     BackgroundColor="Black"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     Grid.ColumnSpan="3"></BoxView>
+
+        </Grid>
+    </ContentView.Content>
+</ContentView>
