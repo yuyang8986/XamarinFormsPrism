@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ShellSamplePrism
+/ShellSamplePrism/ShellSamplePrism/bin/Debug/netstandard2.0
+/ShellSamplePrism/ShellSamplePrism/obj
+/ShellSamplePrism/ShellSamplePrism.Android/bin/Debug
+/ShellSamplePrism/ShellSamplePrism.Android/obj
+/ShellSamplePrism/ShellSamplePrism.iOS/obj

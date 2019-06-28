@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShellSamplePrism.Views;assembly=ShellSamplePrism"
+             xmlns:skiaSharp="clr-namespace:ShellSamplePrism.Views.SkiaSharp;assembly=ShellSamplePrism"
+             xmlns:forms="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             x:Class="ShellSamplePrism.Views.Media.MediaPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <Grid Padding="0" HorizontalOptions="Center" VerticalOptions="Center">
+        
+            <forms:SKCanvasView x:Name="SkCanvasView" HeightRequest="1000" WidthRequest="700"
+                                PaintSurface="CanvasView_OnPaintSurface" />
+
+          
+        </Grid>
+    </ContentPage.Content>
+</views:BasePage>

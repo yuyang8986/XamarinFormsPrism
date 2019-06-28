@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShellSamplePrism.Views;assembly=ShellSamplePrism"
+             xmlns:vsm="clr-namespace:BuildIt.Forms;assembly=BuildIt.Forms.Core"
+             xmlns:anim="clr-namespace:BuildIt.Forms.Animations;assembly=BuildIt.Forms.Core"
+             x:Class="ShellSamplePrism.Views.Material.MaterialPage"
+             Title="{Binding Title}">
+        <vsm:VisualStateManager.VisualStateGroups>
+            <vsm:VisualStateGroups>
+            <vsm:VisualStateGroup Name="RotationStates">
+                    <vsm:VisualState Name="Horizontal" />
+                    
+
+                    <vsm:VisualState Name="Vertical">
+                        <vsm:VisualState.Setters>
+                        <vsm:Setter Element="{x:Reference WelcomeText}"
+                                    Property="Rotation"
+                                        Value="90" />
+                        </vsm:VisualState.Setters>
+                    </vsm:VisualState>
+
+                </vsm:VisualStateGroup>
+            </vsm:VisualStateGroups>
+
+
+        </vsm:VisualStateManager.VisualStateGroups>
+    <ContentPage.Content>
+
+        <StackLayout x:Name="SomeContent">
+            <Label Text="Welcome to Xamarin.Forms!"
+                   x:Name="WelcomeText"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Vertical" Clicked="VerticalClicked"/>
+            <Button Text="Horizontal"
+                    Clicked="HorizontalClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</views:BasePage>
