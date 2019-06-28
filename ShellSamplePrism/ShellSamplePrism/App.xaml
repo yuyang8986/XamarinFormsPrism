@@ -12,9 +12,7 @@
             <views:HeaderTemplate></views:HeaderTemplate>
         </ControlTemplate>
         <ResourceDictionary>
-
-
-            <OnPlatform x:TypeArguments="x:String"
+          <OnPlatform x:TypeArguments="x:String"
                     x:Key="FontAwesomeBrands">
             <On Platform="Android"
                 Value="FontAwesome5Brands.otf#Regular" />
@@ -23,8 +21,7 @@
             <On Platform="UWP"
                 Value="/Assets/FontAwesome5Brands.otf#Font Awesome 5 Brands" />
         </OnPlatform>
-
-        <OnPlatform x:TypeArguments="x:String"
+          <OnPlatform x:TypeArguments="x:String"
                     x:Key="FontAwesomeSolid">
             <On Platform="Android"
                 Value="FontAwesome5Solid.otf#Regular" />
@@ -33,8 +30,7 @@
             <On Platform="UWP"
                 Value="/Assets/FontAwesome5Solid.otf#Font Awesome 5 Free" />
         </OnPlatform>
-
-        <OnPlatform x:TypeArguments="x:String"
+          <OnPlatform x:TypeArguments="x:String"
                     x:Key="FontAwesomeRegular">
             <On Platform="Android"
                 Value="FontAwesome5Regular.otf#Regular" />
@@ -43,6 +39,19 @@
             <On Platform="UWP"
                 Value="/Assets/FontAwesome5Regular.otf#Font Awesome 5 Free" />
         </OnPlatform>
+            <Color x:Key="DarkModeColor">Gray</Color>
+            <Style x:Key="StackLayoutDarkMode" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{StaticResource DarkModeColor}"></Setter>
+            </Style>
+            <Style x:Key="GridDarkMode" TargetType="Grid">
+                <Setter Property="BackgroundColor" Value="{StaticResource DarkModeColor}"></Setter>
+            </Style>
+            <Style x:Key="TextDarkMode" TargetType="TextCell">
+                <Setter Property=""></Setter>
+            </Style>
+            <Style x:Key="ButtonDarkMode"></Style>
+
+
         </ResourceDictionary>
     </Application.Resources>
 

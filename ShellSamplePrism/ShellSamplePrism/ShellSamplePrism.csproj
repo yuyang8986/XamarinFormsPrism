@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildIt.Forms" Version="2.0.0.30" />
+    <PackageReference Include="LiveXAML" Version="2.1.72" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.0.0" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.0.0" />
     <PackageReference Include="Plugin.Toast" Version="2.1.1" />

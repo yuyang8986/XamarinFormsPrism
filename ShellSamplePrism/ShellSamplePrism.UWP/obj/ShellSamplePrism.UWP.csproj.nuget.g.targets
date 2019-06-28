@@ -15,5 +15,6 @@
     <Import Project="$(NuGetPackageRoot)xamarin.forms\4.0.0.540366\build\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.0.0.540366\build\Xamarin.Forms.targets')" />
     <Import Project="$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3.v140\1.1.2\build\SQLitePCLRaw.lib.e_sqlite3.v140.targets" Condition="Exists('$(NuGetPackageRoot)sqlitepclraw.lib.e_sqlite3.v140\1.1.2\build\SQLitePCLRaw.lib.e_sqlite3.v140.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.appcenter.crashes\2.0.0\build\uap10.0\Microsoft.AppCenter.Crashes.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.appcenter.crashes\2.0.0\build\uap10.0\Microsoft.AppCenter.Crashes.targets')" />
+    <Import Project="$(NuGetPackageRoot)livexaml\2.1.72\build\netstandard2.0\LiveXAML.targets" Condition="Exists('$(NuGetPackageRoot)livexaml\2.1.72\build\netstandard2.0\LiveXAML.targets')" />
   </ImportGroup>
 </Project>

@@ -66,6 +66,12 @@
           "lib/netstandard2.0/DryIoc.dll": {}
         }
       },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
       "Microsoft.AppCenter/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -787,6 +793,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -875,6 +882,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -1653,6 +1666,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -1741,6 +1755,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -2520,6 +2540,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -2608,6 +2629,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -3193,6 +3220,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -3281,6 +3309,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -4059,6 +4093,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -4147,6 +4182,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -4926,6 +4967,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -5014,6 +5056,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -5792,6 +5840,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -5880,6 +5929,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/DryIoc.dll": {}
+        }
+      },
+      "LiveXAML/2.1.72": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
         }
       },
       "Microsoft.AppCenter/2.0.0": {
@@ -6659,6 +6714,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "BuildIt.Forms": "2.0.0.30",
+          "LiveXAML": "2.1.72",
           "Microsoft.AppCenter.Analytics": "2.0.0",
           "Microsoft.AppCenter.Crashes": "2.0.0",
           "Plugin.Toast": "2.1.1",
@@ -6798,6 +6854,27 @@
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/DryIoc.dll",
         "lib/xamarinmac20/DryIoc.XML",
         "lib/xamarinmac20/DryIoc.dll"
+      ]
+    },
+    "LiveXAML/2.1.72": {
+      "sha512": "FygIPlA+iePfneWWq/2N/mjyi2vrZY45hfJO3QuQJkzUWGajCd8Peq3BTpqyn6y3yskwmesXTGRQbGdeGW5kQg==",
+      "type": "package",
+      "path": "livexaml/2.1.72",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/LiveXAML.targets",
+        "build/netstandard2.0/XamarinLive.Build.dll",
+        "build/netstandard2.0/XamarinLive.Common.dll",
+        "build/netstandard2.0/minified.cs",
+        "build/netstandard2.0/minified.tpl.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/LiveXAML.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Build.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Common.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.tpl.cs",
+        "livexaml.2.1.72.nupkg.sha512",
+        "livexaml.nuspec"
       ]
     },
     "Microsoft.AppCenter/2.0.0": {
@@ -11316,6 +11393,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "BuildIt.Forms >= 2.0.0.30",
+      "LiveXAML >= 2.1.72",
       "Microsoft.AppCenter.Analytics >= 2.0.0",
       "Microsoft.AppCenter.Crashes >= 2.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.6",
@@ -11382,6 +11460,10 @@
           "BuildIt.Forms": {
             "target": "Package",
             "version": "[2.0.0.30, )"
+          },
+          "LiveXAML": {
+            "target": "Package",
+            "version": "[2.1.72, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",

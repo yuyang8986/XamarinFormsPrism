@@ -192,6 +192,9 @@
     <PackageReference Include="BuildIt.Forms">
       <Version>2.0.0.30</Version>
     </PackageReference>
+    <PackageReference Include="LiveXAML">
+      <Version>2.1.72</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
       <Version>2.0.0</Version>
     </PackageReference>
